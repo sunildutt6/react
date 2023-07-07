@@ -8,6 +8,7 @@ import UserChallenge from "./starter/UserChallenge";
 import MultipleInputs from "./starter/MultipleInputs";
 import OtherInputs from "./starter/OtherInputs";
 import FormDataApi from "./starter/FormDataApi";
+import UseRefBasic from "./starter/UseRefBasic";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <UserChallenge /> */}
       {/* <MultipleInputs /> */}
       {/* <OtherInputs /> */}
-      <FormDataApi />
+      {/* <FormDataApi /> */}
+      <UseRefBasic />
     </div>
   );
 }
