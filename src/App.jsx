@@ -9,6 +9,9 @@ import MultipleInputs from "./starter/MultipleInputs";
 import OtherInputs from "./starter/OtherInputs";
 import FormDataApi from "./starter/FormDataApi";
 import UseRefBasic from "./starter/UseRefBasic";
+import FetchData from "./custom-hooks/FetchData";
+import Navbar from "./context-api/prop-drilling/Navbar";
+import UseReducer from "./useReduce-hooks/UseReducer";
 
 function App() {
   return (
@@ -23,7 +26,12 @@ function App() {
       {/* <MultipleInputs /> */}
       {/* <OtherInputs /> */}
       {/* <FormDataApi /> */}
-      <UseRefBasic />
+      {/* <UseRefBasic /> */}
+      {/* <ToggleCustomHooks /> */}
+      {/* <FetchData /> */}
+      {/* <Navbar /> */}
+      {/* <Navbar /> */}
+      <UseReducer />
     </div>
   );
 }
