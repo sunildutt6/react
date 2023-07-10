@@ -12,6 +12,8 @@ import UseRefBasic from "./starter/UseRefBasic";
 import FetchData from "./custom-hooks/FetchData";
 import Navbar from "./context-api/prop-drilling/Navbar";
 import UseReducer from "./useReduce-hooks/UseReducer";
+import LowerState from "./performance/lower-state";
+import LowerStateChallenge from "./performance/lower-state-challenge";
 
 function App() {
   return (
@@ -31,7 +33,10 @@ function App() {
       {/* <FetchData /> */}
       {/* <Navbar /> */}
       {/* <Navbar /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      {/* <LowerState /> */}
+      {/* <LowerStateChallenge /> */}
+      <LowerState />
     </div>
   );
 }
