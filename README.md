@@ -7,6 +7,8 @@
 
 # https://thecocktaildb.com/
 
+# https://exquisite-pegasus-6b1b4d.netlify.app/
+
 # "dependencies": {
     "@tanstack/react-query-devtools": "^4.29.23",
     "axios": "^1.4.0",
