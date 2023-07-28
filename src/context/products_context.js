@@ -18,6 +18,11 @@ const initialState = {}
 const ProductsContext = React.createContext()
 
 export const ProductsProvider = ({ children }) => {
+  const [state, dispatch] = useReducer(reducer, initialState);
+
+  const openSidebar = () => {
+    dispatch({type:SIDEBAR_OPEN})
+  }
   return (
     <ProductsContext.Provider value='products context'>
       {children}
